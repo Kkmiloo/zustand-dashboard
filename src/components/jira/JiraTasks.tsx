@@ -1,11 +1,9 @@
 import { IoAddOutline, IoCheckmarkCircleOutline } from 'react-icons/io5';
 import { Task, TaskStatus } from '../../interfaces/task.interface';
 import { SingleTask } from './SingleTask';
-import { DragEvent, useState } from 'react';
-import { useTaskStore } from '../../stores';
 
 import classNames from 'classnames';
-import Swal from 'sweetalert2';
+
 import { useTask } from '../../hooks/useTask';
 
 interface Props {
